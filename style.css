@@ -1,0 +1,132 @@
+.jumbo {
+    height: 500px;
+    width: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pic1.jpg');
+    /* background-image: url("pic1.jpg"); */
+    background-repeat: no-repeat;
+    
+}
+ul {
+    color: white;
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.jumboText {
+    text-align: center;
+    color: white;
+    padding-top: 220px;
+    font-size: 21px;
+}
+.content {
+    margin-top: 40px;
+    margin-left: 310px;
+    margin-right: 310px;
+    text-align: center;
+    font-size: 15px;
+}
+.title {
+    padding-top: 10px;
+    border-right: 5px solid white;
+    position: 
+}
+/*.vertical {
+    border-right: 5px solid white;
+    height: 40px;
+    position: relative;
+    
+}*/
+
+li {
+    margin-top: 30px;
+}
+.estimate {
+    background-color: lightgray;
+    height: 250px;
+    margin-top: 50px;
+}
+.estimateHead {
+    text-align: center;
+    padding-top: 20px;
+}
+.importantBtn {
+    padding: 10px;
+    color: red;
+    background-color: white;
+    margin-top: 5px;
+    
+    border-color: red;
+}
+
+#newHomeGrid {
+    display: grid;
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+    column-gap: 20px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 200px 100px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+#house1{ 
+    background-color: black;
+    padding: 2px 10px;
+    grid-column: 1;
+    grid-row: 1;
+}
+#house2{
+    background-color: black;
+    padding: 2px 10px;
+    grid-column: 2;
+    grid-row: 1;
+}
+#house3{
+    background-color: black;
+    padding: 2px 10px;
+    grid-column: 3;
+    grid-row: 1;
+}
+#house1Description {
+    grid-row: 2;
+    grid-column: 1;
+    text-align: left;
+}
+#house2Description {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: left;
+}
+#house3Description {
+    grid-row: 2;
+    grid-column: 3;
+    text-align: left;
+}
+
+.headers {
+    font-size: 15px;
+    color: darkblue;
+}
+
+a:link {
+    color: red;
+}
+
+#luxuryHomesGrid {
+    display: grid;
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+    column-gap: 20px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 900px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
